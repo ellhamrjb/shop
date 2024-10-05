@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Order Summary{% endblock %}
+
+{% block content %}
+    <h2>Order Summary</h2>
+    <ul>
+        {% for item in order.cart.items %}
+            <li>
+                <h3>{{ item.product_name }}</h3>
+                <p>Quantity: {{ item.quantity }}</p>
+                <p>Price: {{ item.product_price }} USD</p>
+            </li>
+        {% endfor %}
+    </ul>
+    <p>Total Price: {{ order.total_price }} USD</p>
+    <p>Ordered at: {{ order.ordered_at }}</p>
+{% endblock %}

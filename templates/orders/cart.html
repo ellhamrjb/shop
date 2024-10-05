@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Your Cart{% endblock %}
+
+{% block content %}
+    <h2>Your Cart</h2>
+    <ul>
+        {% for item in cart.items %}
+            <li>
+                <h3>{{ item.product_name }}</h3>
+                <p>Quantity: {{ item.quantity }}</p>
+                <p>Price: {{ item.product_price }} USD</p>
+            </li>
+        {% endfor %}
+    </ul>
+    <p>Total: {{ cart.total_price }} USD</p>
+    <a href="{% url 'place_order' %}">Proceed to Checkout</a>
+{% endblock %}

@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pipenv environment
+Pipfile.lock
+
+# Django stuff:
+*.log
+db.sqlite3
+media/
+
+# Ignore sensitive files
+.env
+config/settings/local.py
+
+# MySQL data
+*.sql
+
+# Docker files
+*.dockerignore
+docker-compose.yml
+
+# Virtual environment
+.vscode/
+venv/
+env/
+
+# Python virtual environment
+*.env
+*.venv
+
+# Ignore migrations
+*/migrations/*
+
+# Ignore compiled Python
+*.pyc
+
+# Ignore pyenv files
+.python-version
+
+# Ignore VSCode files
+.vscode/
+# .gitignore
+
+# Python
+*.pyc
+__pycache__/
+
+# Virtual Environment
+.env/
+Pipfile.lock
+Pipfile
+
+# Django Secret Keys & Config
+core/settings.py
+core/.env
+*.env
+
+# MySQL
+*.db
+
+# Ignore static and media files
+/static/
+/media/
+
