@@ -1,0 +1,24 @@
+# shop
+Shop is a fully-functional eCommerce platform built with Python, Django, and DRF, focusing on back-end development with a simple front-end. It supports product listings, user authentication, cart functionality, and order management. Built using professional practices like Docker, MySQL, and Git.
+
+# features
+- **User Authentication**: Register, login, and manage user profiles.
+- **Product Listings**: Browse and view products with detailed descriptions.
+- **Shopping Cart**: Add or remove products and manage your cart.
+- **Order Management**: Place and track orders seamlessly.
+- **REST API**: Built with Django REST Framework for efficient API management.
+- **Docker Support**: Containerized for easy deployment and scalability.
+
+# Technology Stack
+
+- **Back-end**: Python, Django, Django REST Framework
+- **Database**: MySQL
+- **Containerization**: Docker
+- **Version Control**: Git
+- **Environment Management**: Pipenv
+
+# Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ellhamrjb/shop.git
